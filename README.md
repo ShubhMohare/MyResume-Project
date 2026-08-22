@@ -77,12 +77,19 @@ Docker image:
 
 shubhmohare/myresume:latest
 
-📸 Project Screenshots
-🔧 Jenkins CI/CD Pipeline
+## 📸 Project Screenshots
 
-🔍 SonarQube Quality Gate
+### 🔧 Jenkins CI/CD Pipeline
 
-🌐 Deployed MyResume Website
+<img src="screenshot/jenkins-pipeline.png" alt="Jenkins Pipeline" width="900"/>
+
+### 🔍 SonarQube Quality Gate
+
+<img src="screenshot/sonarqube.png" alt="SonarQube Quality Gate" width="900"/>
+
+### 🌐 Deployed MyResume Website
+
+<img src="screenshot/website-2.png" alt="MyResume Website" width="900"/>
 
 🎯 Key DevOps Concepts
 Infrastructure as Code with Terraform
