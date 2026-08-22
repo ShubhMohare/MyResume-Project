@@ -1,19 +1,20 @@
 pipeline {
     agent any
 
-}
     stages {
+
         stage('Checkout') {
             steps {
-                checkout scm 
+                checkout scm
             }
         }
+
         stage('Docker Build') {
             steps {
                 sh 'docker build -t myresume:latest .'
             }
         }
-        
+
         stage('Docker Test') {
             steps {
                 sh 'docker run -d --name myresume-test -p 8081:80 myresume:latest'
@@ -24,3 +25,4 @@ pipeline {
             }
         }
     }
+}
