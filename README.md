@@ -66,8 +66,16 @@ The goal of this project was to build a repeatable CI/CD process where source-co
 
 
 
- ![Jenkins Pipeline](screenshot/jenkins-pipeline.png)
+ ## 📸 Project Screenshots
+
+### 🔧 Jenkins CI/CD Pipeline
+
+![Jenkins Pipeline](screenshot/jenkins-pipeline.png)
+
+### 🔍 SonarQube Quality Gate
 
 ![SonarQube Quality Gate](screenshot/sonarqube.png)
+
+### 🌐 Deployed MyResume Website
 
 ![MyResume Website](screenshot/website-2.png)
